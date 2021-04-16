@@ -1,0 +1,18 @@
+{
+    "name": "sass-painter",
+    "version": "1.0.0",
+    "description": "replico un mokup usando sass",
+    "main": "index.js",
+    "scripts": {
+        "watch": "npx mix -- --watch"
+    },
+    "author": "Federico Figini",
+    "license": "ISC",
+    "devDependencies": {
+        "laravel-mix": "^6.0.16",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^3.1.2",
+        "sass": "^1.32.8",
+        "sass-loader": "^11.0.1"
+    }
+}
