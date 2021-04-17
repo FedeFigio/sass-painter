@@ -1,9 +1,240 @@
+.container {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.txt-10 {
+  font-size: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.a-end {
+  align-items: flex-end;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.s-between {
+  justify-content: space-between;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.bg-violet {
+  background-color: #3c1567;
+}
+
+.bg-gray {
+  background-color: #494949;
+}
+
+.bg-azul {
+  background-color: #26abff;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  border: none;
+  outline: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
-  color: violet;
+body {
+  background-color: #ebebeb;
+}
+
+.btn {
+  padding: 5px 18px;
+  text-transform: uppercase;
+  border: 1px solid;
+  font-size: 12px;
+}
+
+.btn-black {
+  color: #FFF;
+  background-color: #101010;
+  border-color: #101010;
+}
+
+.btn-transparent {
+  color: #101010;
+  background-color: transparent;
+  border-color: #101010;
+}
+
+.btn-white {
+  color: #494949;
+  background-color: #FFF;
+  border-color: #FFF;
+}
+
+nav {
+  height: 80px;
+  background-color: black;
+}
+nav ul {
+  color: #FFF;
+  font-size: 10px;
+}
+nav ul > * {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+nav ul select {
+  font-size: 10px;
+  color: #FFF;
+  background: #101010;
+}
+nav .logo {
+  width: 65px;
+}
+nav .account {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  font-size: 10px;
+}
+nav .account i {
+  color: #26abff;
+}
+nav .account span {
+  color: #494949;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+nav .account select {
+  font-size: 8px;
+}
+
+main .jumbotron {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background-image: url(../images/bg-painter-home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -40px;
+}
+main .jumbotron .container .description {
+  color: #101010;
+  width: 350px;
+}
+main .jumbotron .container .description img {
+  width: 150px;
+}
+main .jumbotron .container .description:not(h1) {
+  font-size: 16px;
+}
+main .jumbotron .container .description span {
+  color: #cb26b5;
+  font-size: 12px;
+}
+main .more {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  color: #494949;
+}
+main .more h2 {
+  font-weight: lighter;
+}
+main .more .card-sm {
+  background-color: #FFF;
+  width: calc(100% / 3 - 15px);
+}
+main .more .card-sm .description {
+  padding: 10px;
+}
+main .more .card-sm .description p:nth-child(1) {
+  font-weight: bold;
+}
+main .more .card-sm .description span {
+  color: #26abff;
+}
+main .offers .card-md {
+  color: #FFF;
+  height: 200px;
+}
+main .offers .card-md .description,
+main .offers .card-md .wrap-img {
+  width: 50%;
+  height: 100%;
+}
+main .offers .card-md .wrap-img.bg {
+  background-image: url(../images/wacom-painter.jpg);
+  background-size: cover;
+}
+main .offers .card-md .wrap-img.bg img {
+  transform: scale(0.8);
+}
+main .offers .card-md .description {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 35px;
+}
+main .offers .card-md .description > * {
+  margin-bottom: 15px;
+}
+main .offers .card-md .description p {
+  font-size: 12px;
+}
+main .offers .card-md img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }

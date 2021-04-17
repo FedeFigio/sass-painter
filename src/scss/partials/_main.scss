@@ -1,0 +1,81 @@
+main {
+    .jumbotron {
+        padding-top: 50px;
+        padding-bottom: 70px;
+        background-image: url(../images/bg-painter-home.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -40px;
+        .container {
+            .description {
+                img {
+                    width: 150px;
+                }
+                &:not(h1) {
+                    font-size: 16px;
+                }
+                color: $black;
+                width: 350px;
+                span {
+                    color: $pink;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .more {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        color: $gray;
+        h2 {
+            font-weight: lighter;
+        }
+        .card-sm {
+            background-color: $white;
+            width: calc(100% / 3 - 15px);
+            .description {
+                padding: 10px;
+                p:nth-child(1) {
+                    font-weight: bold;
+                }
+                span {
+                    color: $azul;
+                }
+            }
+        }
+    }
+    .offers {
+        .card-md {
+            color: $white;
+            height: 200px;
+            .description,
+            .wrap-img {
+                width: 50%;
+                height: 100%;
+            }
+            .wrap-img {
+                &.bg {
+                    background-image: url(../images/wacom-painter.jpg);
+                    background-size: cover;
+                    img {
+                        transform: scale(.8);
+                    }
+                }
+            }
+            .description {
+                height: fit-content;
+                padding: 35px;
+                &>* {
+                    margin-bottom: 15px;
+                }
+                p {
+                    font-size: 12px;
+                }
+            }
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
