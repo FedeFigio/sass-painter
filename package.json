@@ -4,7 +4,8 @@
     "description": "replico un mokup usando sass",
     "main": "index.js",
     "scripts": {
-        "watch": "npx mix -- --watch"
+        "watch": "npx mix -- --watch",
+        "serve": "cd dist && npx live-server"
     },
     "author": "Federico Figini",
     "license": "ISC",

@@ -47,7 +47,7 @@ main {
     .offers {
         .card-md {
             color: $white;
-            height: 200px;
+            height: 250px;
             .description,
             .wrap-img {
                 width: 50%;
@@ -58,12 +58,12 @@ main {
                     background-image: url(../images/wacom-painter.jpg);
                     background-size: cover;
                     img {
-                        transform: scale(.8);
+                        transform: scale(.6);
                     }
                 }
             }
             .description {
-                height: fit-content;
+                height: 100%;
                 padding: 35px;
                 &>* {
                     margin-bottom: 15px;

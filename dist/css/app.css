@@ -207,7 +207,7 @@ main .more .card-sm .description span {
 }
 main .offers .card-md {
   color: #FFF;
-  height: 200px;
+  height: 250px;
 }
 main .offers .card-md .description,
 main .offers .card-md .wrap-img {
@@ -219,12 +219,10 @@ main .offers .card-md .wrap-img.bg {
   background-size: cover;
 }
 main .offers .card-md .wrap-img.bg img {
-  transform: scale(0.8);
+  transform: scale(0.6);
 }
 main .offers .card-md .description {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  height: 100%;
   padding: 35px;
 }
 main .offers .card-md .description > * {
