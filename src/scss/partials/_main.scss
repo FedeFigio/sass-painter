@@ -41,13 +41,16 @@ main {
                 span {
                     color: $azul;
                 }
+                p {
+                    font-size: 10px;
+                }
             }
         }
     }
     .offers {
         .card-md {
             color: $white;
-            height: 250px;
+            height: 200px;
             .description,
             .wrap-img {
                 width: 50%;

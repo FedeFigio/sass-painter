@@ -85,6 +85,50 @@ img {
   background-color: #26abff;
 }
 
+.txt-pink {
+  color: #E4405F;
+}
+
+.txt-pink {
+  color: #cb26b5;
+}
+
+.txt-pink {
+  color: #cb26b5;
+}
+
+.txt-pink {
+  color: #cb26b5;
+}
+
+.txt-pink {
+  color: #cb26b5;
+}
+
+.bg-logo-instagram {
+  background-color: #E4405F;
+}
+
+.bg-logo-face {
+  background-color: #3B5998;
+}
+
+.bg-logo-twitter {
+  background-color: #1DA1F2;
+}
+
+.bg-logo-youtube {
+  background-color: #CD201F;
+}
+
+.bg-logo-pinterest {
+  background-color: #BD081C;
+}
+
+.bg-logo-painter {
+  background-color: #FF8D00;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -97,31 +141,6 @@ img {
 
 body {
   background-color: #ebebeb;
-}
-
-.btn {
-  padding: 5px 18px;
-  text-transform: uppercase;
-  border: 1px solid;
-  font-size: 12px;
-}
-
-.btn-black {
-  color: #FFF;
-  background-color: #101010;
-  border-color: #101010;
-}
-
-.btn-transparent {
-  color: #101010;
-  background-color: transparent;
-  border-color: #101010;
-}
-
-.btn-white {
-  color: #494949;
-  background-color: #FFF;
-  border-color: #FFF;
 }
 
 nav {
@@ -205,9 +224,12 @@ main .more .card-sm .description p:nth-child(1) {
 main .more .card-sm .description span {
   color: #26abff;
 }
+main .more .card-sm .description p {
+  font-size: 10px;
+}
 main .offers .card-md {
   color: #FFF;
-  height: 250px;
+  height: 200px;
 }
 main .offers .card-md .description,
 main .offers .card-md .wrap-img {
@@ -235,4 +257,80 @@ main .offers .card-md img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+footer .links {
+  background-color: #eeeeee;
+}
+footer .links .container {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+footer .links .container ul {
+  width: calc(100% / 4);
+}
+footer .links .container ul li {
+  color: gray;
+  font-size: 10px;
+}
+footer .links .container ul li:first-child {
+  font-weight: bold;
+}
+footer .links .container ul li:not(:last-child) {
+  margin-bottom: 5px;
+}
+footer .links .container ul li.social {
+  margin-top: 30px;
+  font-size: 25px;
+}
+footer .links .container ul li.social svg {
+  width: 25px;
+  fill: #FFF;
+}
+footer .wrap-terms {
+  font-size: 8px;
+  color: #FFF;
+  background-color: #101010;
+}
+footer .wrap-terms .container {
+  padding: 10px;
+}
+footer .wrap-terms .container .sponsor img {
+  height: 30px;
+  width: auto;
+  margin-right: 10px;
+}
+footer .wrap-terms .container .terms {
+  padding-top: 5px;
+}
+footer .wrap-terms .container .terms ul li {
+  margin-left: 10px;
+}
+footer .wrap-terms .container .terms ul li:not(:last-child) {
+  opacity: 0.5;
+}
+
+.btn {
+  padding: 5px 18px;
+  text-transform: uppercase;
+  border: 1px solid;
+  font-size: 12px;
+}
+
+.btn-black {
+  color: #FFF;
+  background-color: #101010;
+  border-color: #101010;
+}
+
+.btn-transparent {
+  color: #101010;
+  background-color: transparent;
+  border-color: #101010;
+}
+
+.btn-white {
+  color: #494949;
+  background-color: #FFF;
+  border-color: #FFF;
 }

@@ -1,0 +1,56 @@
+footer {
+    .links {
+        background-color: #eeeeee;
+        .container {
+            padding-top: 40px;
+            padding-bottom: 10px;
+            ul {
+                width: calc(100% / 4);
+                li {
+                    color: gray;
+                    font-size: 10px;
+                    &:first-child {
+                        font-weight: bold;
+                    }
+                    &:not(:last-child) {
+                        margin-bottom: 5px;
+                    }
+                    &.social {
+                        margin-top: 30px;
+                        font-size: 25px;
+                        svg {
+                            width: 25px;
+                            fill: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .wrap-terms {
+        font-size: 8px;
+        color: $white;
+        background-color: $black;
+        .container {
+            padding: 10px;
+            .sponsor {
+                img {
+                    height: 30px;
+                    width: auto;
+                    margin-right: 10px;
+                }
+            }
+            .terms {
+                padding-top: 5px;
+                ul {
+                    li {
+                        margin-left: 10px;
+                        &:not(:last-child) {
+                            opacity: .5;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
